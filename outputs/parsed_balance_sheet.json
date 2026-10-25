@@ -1,0 +1,1598 @@
+{
+  "metadata": {
+    "title": "連結貸借対照表",
+    "is_amended_filing": true,
+    "unit": "千円",
+    "periods": [
+      "2025-03-31",
+      "2026-03-31"
+    ]
+  },
+  "rows": [
+    {
+      "row_index": 0,
+      "label": "資産の部",
+      "indent_level": 0,
+      "hierarchy_path": [
+        "資産の部"
+      ],
+      "role": "SECTION_HEADER",
+      "values": {},
+      "y_coord": 148.2689971923828
+    },
+    {
+      "row_index": 1,
+      "label": "流動資産",
+      "indent_level": 1,
+      "hierarchy_path": [
+        "資産の部",
+        "流動資産"
+      ],
+      "role": "SECTION_HEADER",
+      "values": {},
+      "y_coord": 160.2689971923828
+    },
+    {
+      "row_index": 2,
+      "label": "現金及び預金",
+      "indent_level": 2,
+      "hierarchy_path": [
+        "資産の部",
+        "流動資産",
+        "現金及び預金"
+      ],
+      "role": "LINE_ITEM",
+      "values": {
+        "2025-03-31": {
+          "raw_text": "2,002,429",
+          "value": 2002429,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 356.8800048828125,
+            "y0": 172.2689971923828,
+            "x1": 397.51580810546875,
+            "y1": 181.23300170898438
+          }
+        },
+        "2026-03-31": {
+          "raw_text": "608,281",
+          "value": 608281,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 490.9200134277344,
+            "y0": 172.2689971923828,
+            "x1": 522.5531616210938,
+            "y1": 181.23300170898438
+          }
+        }
+      },
+      "y_coord": 172.2689971923828
+    },
+    {
+      "row_index": 3,
+      "label": "受取手形",
+      "indent_level": 2,
+      "hierarchy_path": [
+        "資産の部",
+        "流動資産",
+        "受取手形"
+      ],
+      "role": "LINE_ITEM",
+      "values": {
+        "2025-03-31": {
+          "raw_text": "20,659",
+          "value": 20659,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 370.44000244140625,
+            "y0": 184.2689971923828,
+            "x1": 397.5101318359375,
+            "y1": 193.23300170898438
+          }
+        },
+        "2026-03-31": {
+          "raw_text": "26,333",
+          "value": 26333,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 495.4800109863281,
+            "y0": 184.2689971923828,
+            "x1": 522.5501708984375,
+            "y1": 193.23300170898438
+          }
+        }
+      },
+      "y_coord": 184.2689971923828
+    },
+    {
+      "row_index": 4,
+      "label": "売掛金",
+      "indent_level": 2,
+      "hierarchy_path": [
+        "資産の部",
+        "流動資産",
+        "売掛金"
+      ],
+      "role": "LINE_ITEM",
+      "values": {
+        "2025-03-31": {
+          "raw_text": "2,019,476",
+          "value": 2019476,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 356.8800048828125,
+            "y0": 196.2689971923828,
+            "x1": 397.51580810546875,
+            "y1": 205.23300170898438
+          }
+        },
+        "2026-03-31": {
+          "raw_text": "884,339",
+          "value": 884339,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 490.9200134277344,
+            "y0": 196.2689971923828,
+            "x1": 522.5531616210938,
+            "y1": 205.23300170898438
+          }
+        }
+      },
+      "y_coord": 196.2689971923828
+    },
+    {
+      "row_index": 5,
+      "label": "電子記録債権",
+      "indent_level": 2,
+      "hierarchy_path": [
+        "資産の部",
+        "流動資産",
+        "電子記録債権"
+      ],
+      "role": "LINE_ITEM",
+      "values": {
+        "2025-03-31": {
+          "raw_text": "564,667",
+          "value": 564667,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 365.8800048828125,
+            "y0": 208.2689971923828,
+            "x1": 397.51312255859375,
+            "y1": 217.23300170898438
+          }
+        },
+        "2026-03-31": {
+          "raw_text": "370,468",
+          "value": 370468,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 490.9200134277344,
+            "y0": 208.2689971923828,
+            "x1": 522.5531616210938,
+            "y1": 217.23300170898438
+          }
+        }
+      },
+      "y_coord": 208.2689971923828
+    },
+    {
+      "row_index": 6,
+      "label": "商品及び製品",
+      "indent_level": 2,
+      "hierarchy_path": [
+        "資産の部",
+        "流動資産",
+        "商品及び製品"
+      ],
+      "role": "LINE_ITEM",
+      "values": {
+        "2025-03-31": {
+          "raw_text": "589,488",
+          "value": 589488,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 365.8800048828125,
+            "y0": 220.2689971923828,
+            "x1": 397.51312255859375,
+            "y1": 229.23300170898438
+          }
+        },
+        "2026-03-31": {
+          "raw_text": "1,019,663",
+          "value": 1019663,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 481.9200134277344,
+            "y0": 220.2689971923828,
+            "x1": 522.5558471679688,
+            "y1": 229.23300170898438
+          }
+        }
+      },
+      "y_coord": 220.2689971923828
+    },
+    {
+      "row_index": 7,
+      "label": "仕掛品",
+      "indent_level": 2,
+      "hierarchy_path": [
+        "資産の部",
+        "流動資産",
+        "仕掛品"
+      ],
+      "role": "LINE_ITEM",
+      "values": {
+        "2025-03-31": {
+          "raw_text": "186,748",
+          "value": 186748,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 365.8800048828125,
+            "y0": 232.2689971923828,
+            "x1": 397.51312255859375,
+            "y1": 241.23300170898438
+          }
+        },
+        "2026-03-31": {
+          "raw_text": "55,344",
+          "value": 55344,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 495.4800109863281,
+            "y0": 232.2689971923828,
+            "x1": 522.5501708984375,
+            "y1": 241.23300170898438
+          }
+        }
+      },
+      "y_coord": 232.2689971923828
+    },
+    {
+      "row_index": 8,
+      "label": "原材料及び貯蔵品",
+      "indent_level": 2,
+      "hierarchy_path": [
+        "資産の部",
+        "流動資産",
+        "原材料及び貯蔵品"
+      ],
+      "role": "LINE_ITEM",
+      "values": {
+        "2025-03-31": {
+          "raw_text": "370,403",
+          "value": 370403,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 365.8800048828125,
+            "y0": 244.2689971923828,
+            "x1": 397.51312255859375,
+            "y1": 253.23300170898438
+          }
+        },
+        "2026-03-31": {
+          "raw_text": "136,082",
+          "value": 136082,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 490.9200134277344,
+            "y0": 244.2689971923828,
+            "x1": 522.5531616210938,
+            "y1": 253.23300170898438
+          }
+        }
+      },
+      "y_coord": 244.2689971923828
+    },
+    {
+      "row_index": 9,
+      "label": "短期貸付金",
+      "indent_level": 2,
+      "hierarchy_path": [
+        "資産の部",
+        "流動資産",
+        "短期貸付金"
+      ],
+      "role": "LINE_ITEM",
+      "values": {
+        "2025-03-31": {
+          "raw_text": "7,530",
+          "value": 7530,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 374.8800048828125,
+            "y0": 256.2690124511719,
+            "x1": 397.5095520019531,
+            "y1": 265.2330017089844
+          }
+        },
+        "2026-03-31": {
+          "raw_text": "30,000",
+          "value": 30000,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 495.4800109863281,
+            "y0": 256.2690124511719,
+            "x1": 522.5501708984375,
+            "y1": 265.2330017089844
+          }
+        }
+      },
+      "y_coord": 256.2690124511719
+    },
+    {
+      "row_index": 10,
+      "label": "その他",
+      "indent_level": 2,
+      "hierarchy_path": [
+        "資産の部",
+        "流動資産",
+        "その他"
+      ],
+      "role": "LINE_ITEM",
+      "values": {
+        "2025-03-31": {
+          "raw_text": "105,260",
+          "value": 105260,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 365.8800048828125,
+            "y0": 268.2690124511719,
+            "x1": 397.51312255859375,
+            "y1": 277.2330017089844
+          }
+        },
+        "2026-03-31": {
+          "raw_text": "246,895",
+          "value": 246895,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 490.9200134277344,
+            "y0": 268.2690124511719,
+            "x1": 522.5531616210938,
+            "y1": 277.2330017089844
+          }
+        }
+      },
+      "y_coord": 268.2690124511719
+    },
+    {
+      "row_index": 11,
+      "label": "貸倒引当金",
+      "indent_level": 2,
+      "hierarchy_path": [
+        "資産の部",
+        "流動資産",
+        "貸倒引当金"
+      ],
+      "role": "LINE_ITEM",
+      "values": {
+        "2025-03-31": {
+          "raw_text": "△2,979",
+          "value": -2979,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 365.8800048828125,
+            "y0": 280.2690124511719,
+            "x1": 397.5095520019531,
+            "y1": 289.2330017089844
+          }
+        },
+        "2026-03-31": {
+          "raw_text": "△0",
+          "value": 0,
+          "is_nil": false,
+          "is_negative_zero": true,
+          "is_amended": false,
+          "bbox": {
+            "x0": 508.9200134277344,
+            "y0": 280.2690124511719,
+            "x1": 522.4199829101562,
+            "y1": 289.2330017089844
+          }
+        }
+      },
+      "y_coord": 280.2690124511719
+    },
+    {
+      "row_index": 12,
+      "label": "流動資産合計",
+      "indent_level": 2,
+      "hierarchy_path": [
+        "資産の部",
+        "流動資産",
+        "流動資産合計"
+      ],
+      "role": "SUBTOTAL",
+      "values": {
+        "2025-03-31": {
+          "raw_text": "5,863,684",
+          "value": 5863684,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 356.8800048828125,
+            "y0": 292.9889831542969,
+            "x1": 397.51580810546875,
+            "y1": 301.9529724121094
+          }
+        },
+        "2026-03-31": {
+          "raw_text": "3,377,407",
+          "value": 3377407,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 481.9200134277344,
+            "y0": 292.9889831542969,
+            "x1": 522.5558471679688,
+            "y1": 301.9529724121094
+          }
+        }
+      },
+      "y_coord": 292.9889831542969
+    },
+    {
+      "row_index": 13,
+      "label": "固定資産",
+      "indent_level": 1,
+      "hierarchy_path": [
+        "資産の部",
+        "固定資産"
+      ],
+      "role": "SECTION_HEADER",
+      "values": {},
+      "y_coord": 305.8290100097656
+    },
+    {
+      "row_index": 14,
+      "label": "有形固定資産",
+      "indent_level": 2,
+      "hierarchy_path": [
+        "資産の部",
+        "固定資産",
+        "有形固定資産"
+      ],
+      "role": "SECTION_HEADER",
+      "values": {},
+      "y_coord": 317.8290100097656
+    },
+    {
+      "row_index": 15,
+      "label": "建物及び構築物",
+      "indent_level": 3,
+      "hierarchy_path": [
+        "資産の部",
+        "固定資産",
+        "有形固定資産",
+        "建物及び構築物"
+      ],
+      "role": "GROSS_ITEM",
+      "values": {
+        "2025-03-31": {
+          "raw_text": "2,121,360",
+          "value": 2121360,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 356.8800048828125,
+            "y0": 329.8290100097656,
+            "x1": 397.51580810546875,
+            "y1": 338.7929992675781
+          }
+        },
+        "2026-03-31": {
+          "raw_text": "1,880,082",
+          "value": 1880082,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 481.9200134277344,
+            "y0": 329.8290100097656,
+            "x1": 522.5558471679688,
+            "y1": 338.7929992675781
+          }
+        }
+      },
+      "y_coord": 329.8290100097656
+    },
+    {
+      "row_index": 16,
+      "label": "減価償却累計額",
+      "indent_level": 4,
+      "hierarchy_path": [
+        "資産の部",
+        "固定資産",
+        "有形固定資産",
+        "建物及び構築物",
+        "減価償却累計額"
+      ],
+      "role": "ACCUM_DEPR",
+      "values": {
+        "2025-03-31": {
+          "raw_text": "△1,923,585",
+          "value": -1923585,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 347.8800048828125,
+            "y0": 341.8290100097656,
+            "x1": 397.51580810546875,
+            "y1": 350.7929992675781
+          }
+        },
+        "2026-03-31": {
+          "raw_text": "△1,640,253",
+          "value": -1640253,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 472.9200134277344,
+            "y0": 341.8290100097656,
+            "x1": 522.5558471679688,
+            "y1": 350.7929992675781
+          }
+        }
+      },
+      "y_coord": 341.8290100097656
+    },
+    {
+      "row_index": 17,
+      "label": "建物及び構築物（純額）",
+      "indent_level": 4,
+      "hierarchy_path": [
+        "資産の部",
+        "固定資産",
+        "有形固定資産",
+        "建物及び構築物",
+        "建物及び構築物（純額）"
+      ],
+      "role": "NET_ITEM",
+      "values": {
+        "2025-03-31": {
+          "raw_text": "197,775",
+          "value": 197775,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 365.8800048828125,
+            "y0": 354.54901123046875,
+            "x1": 397.51312255859375,
+            "y1": 363.51300048828125
+          }
+        },
+        "2026-03-31": {
+          "raw_text": "239,828",
+          "value": 239828,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 490.9200134277344,
+            "y0": 354.54901123046875,
+            "x1": 522.5531616210938,
+            "y1": 363.51300048828125
+          }
+        }
+      },
+      "y_coord": 354.54901123046875
+    },
+    {
+      "row_index": 18,
+      "label": "機械装置及び運搬具",
+      "indent_level": 3,
+      "hierarchy_path": [
+        "資産の部",
+        "固定資産",
+        "有形固定資産",
+        "機械装置及び運搬具"
+      ],
+      "role": "GROSS_ITEM",
+      "values": {
+        "2025-03-31": {
+          "raw_text": "4,024,922",
+          "value": 4024922,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 356.8800048828125,
+            "y0": 367.2690124511719,
+            "x1": 397.51580810546875,
+            "y1": 376.2330017089844
+          }
+        },
+        "2026-03-31": {
+          "raw_text": "2,250,799",
+          "value": 2250799,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 481.9200134277344,
+            "y0": 367.2690124511719,
+            "x1": 522.5558471679688,
+            "y1": 376.2330017089844
+          }
+        }
+      },
+      "y_coord": 367.2690124511719
+    },
+    {
+      "row_index": 19,
+      "label": "減価償却累計額",
+      "indent_level": 4,
+      "hierarchy_path": [
+        "資産の部",
+        "固定資産",
+        "有形固定資産",
+        "機械装置及び運搬具",
+        "減価償却累計額"
+      ],
+      "role": "ACCUM_DEPR",
+      "values": {
+        "2025-03-31": {
+          "raw_text": "△3,634,165",
+          "value": -3634165,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 347.8800048828125,
+            "y0": 379.2690124511719,
+            "x1": 397.51580810546875,
+            "y1": 388.2330017089844
+          }
+        },
+        "2026-03-31": {
+          "raw_text": "△1,914,091",
+          "value": -1914091,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 472.9200134277344,
+            "y0": 379.2690124511719,
+            "x1": 522.5558471679688,
+            "y1": 388.2330017089844
+          }
+        }
+      },
+      "y_coord": 379.2690124511719
+    },
+    {
+      "row_index": 20,
+      "label": "機械装置及び運搬具（純額）",
+      "indent_level": 4,
+      "hierarchy_path": [
+        "資産の部",
+        "固定資産",
+        "有形固定資産",
+        "機械装置及び運搬具",
+        "機械装置及び運搬具（純額）"
+      ],
+      "role": "NET_ITEM",
+      "values": {
+        "2025-03-31": {
+          "raw_text": "390,757",
+          "value": 390757,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 365.8800048828125,
+            "y0": 391.989013671875,
+            "x1": 397.51312255859375,
+            "y1": 400.9530029296875
+          }
+        },
+        "2026-03-31": {
+          "raw_text": "336,708",
+          "value": 336708,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 490.9200134277344,
+            "y0": 391.989013671875,
+            "x1": 522.5531616210938,
+            "y1": 400.9530029296875
+          }
+        }
+      },
+      "y_coord": 391.989013671875
+    },
+    {
+      "row_index": 21,
+      "label": "土地",
+      "indent_level": 3,
+      "hierarchy_path": [
+        "資産の部",
+        "固定資産",
+        "有形固定資産",
+        "土地"
+      ],
+      "role": "LINE_ITEM",
+      "values": {
+        "2025-03-31": {
+          "raw_text": "768,976",
+          "value": 768976,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 365.8800048828125,
+            "y0": 404.8290100097656,
+            "x1": 397.51312255859375,
+            "y1": 413.7929992675781
+          }
+        },
+        "2026-03-31": {
+          "raw_text": "705,403",
+          "value": 705403,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 490.9200134277344,
+            "y0": 404.8290100097656,
+            "x1": 522.5531616210938,
+            "y1": 413.7929992675781
+          }
+        }
+      },
+      "y_coord": 404.8290100097656
+    },
+    {
+      "row_index": 22,
+      "label": "リース資産",
+      "indent_level": 3,
+      "hierarchy_path": [
+        "資産の部",
+        "固定資産",
+        "有形固定資産",
+        "リース資産"
+      ],
+      "role": "GROSS_ITEM",
+      "values": {
+        "2025-03-31": {
+          "raw_text": "210,746",
+          "value": 210746,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 365.8800048828125,
+            "y0": 416.8290100097656,
+            "x1": 397.51312255859375,
+            "y1": 425.7929992675781
+          }
+        },
+        "2026-03-31": {
+          "raw_text": "213,939",
+          "value": 213939,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 490.9200134277344,
+            "y0": 416.8290100097656,
+            "x1": 522.5531616210938,
+            "y1": 425.7929992675781
+          }
+        }
+      },
+      "y_coord": 416.8290100097656
+    },
+    {
+      "row_index": 23,
+      "label": "減価償却累計額",
+      "indent_level": 4,
+      "hierarchy_path": [
+        "資産の部",
+        "固定資産",
+        "有形固定資産",
+        "リース資産",
+        "減価償却累計額"
+      ],
+      "role": "ACCUM_DEPR",
+      "values": {
+        "2025-03-31": {
+          "raw_text": "△147,599",
+          "value": -147599,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 356.8800048828125,
+            "y0": 428.8290100097656,
+            "x1": 397.51312255859375,
+            "y1": 437.7929992675781
+          }
+        },
+        "2026-03-31": {
+          "raw_text": "△172,066",
+          "value": -172066,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 481.9200134277344,
+            "y0": 428.8290100097656,
+            "x1": 522.5531616210938,
+            "y1": 437.7929992675781
+          }
+        }
+      },
+      "y_coord": 428.8290100097656
+    },
+    {
+      "row_index": 24,
+      "label": "リース資産（純額）",
+      "indent_level": 4,
+      "hierarchy_path": [
+        "資産の部",
+        "固定資産",
+        "有形固定資産",
+        "リース資産",
+        "リース資産（純額）"
+      ],
+      "role": "NET_ITEM",
+      "values": {
+        "2025-03-31": {
+          "raw_text": "63,146",
+          "value": 63146,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 370.44000244140625,
+            "y0": 441.54901123046875,
+            "x1": 397.5101318359375,
+            "y1": 450.51300048828125
+          }
+        },
+        "2026-03-31": {
+          "raw_text": "41,872",
+          "value": 41872,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 495.4800109863281,
+            "y0": 441.54901123046875,
+            "x1": 522.5501708984375,
+            "y1": 450.51300048828125
+          }
+        }
+      },
+      "y_coord": 441.54901123046875
+    },
+    {
+      "row_index": 25,
+      "label": "建設仮勘定",
+      "indent_level": 3,
+      "hierarchy_path": [
+        "資産の部",
+        "固定資産",
+        "有形固定資産",
+        "建設仮勘定"
+      ],
+      "role": "LINE_ITEM",
+      "values": {
+        "2025-03-31": {
+          "raw_text": "－",
+          "value": null,
+          "is_nil": true,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 388.44000244140625,
+            "y0": 454.2690124511719,
+            "x1": 397.44000244140625,
+            "y1": 463.2330017089844
+          }
+        },
+        "2026-03-31": {
+          "raw_text": "4,553",
+          "value": 4553,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 499.9200134277344,
+            "y0": 454.2690124511719,
+            "x1": 522.5496215820312,
+            "y1": 463.2330017089844
+          }
+        }
+      },
+      "y_coord": 454.2690124511719
+    },
+    {
+      "row_index": 26,
+      "label": "その他",
+      "indent_level": 3,
+      "hierarchy_path": [
+        "資産の部",
+        "固定資産",
+        "有形固定資産",
+        "その他"
+      ],
+      "role": "GROSS_ITEM",
+      "values": {
+        "2025-03-31": {
+          "raw_text": "848,814",
+          "value": 848814,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 365.8800048828125,
+            "y0": 466.989013671875,
+            "x1": 397.51312255859375,
+            "y1": 475.9530029296875
+          }
+        },
+        "2026-03-31": {
+          "raw_text": "446,126",
+          "value": 446126,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 490.9200134277344,
+            "y0": 466.989013671875,
+            "x1": 522.5531616210938,
+            "y1": 475.9530029296875
+          }
+        }
+      },
+      "y_coord": 466.989013671875
+    },
+    {
+      "row_index": 27,
+      "label": "減価償却累計額",
+      "indent_level": 4,
+      "hierarchy_path": [
+        "資産の部",
+        "固定資産",
+        "有形固定資産",
+        "その他",
+        "減価償却累計額"
+      ],
+      "role": "ACCUM_DEPR",
+      "values": {
+        "2025-03-31": {
+          "raw_text": "△840,375",
+          "value": -840375,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 356.8800048828125,
+            "y0": 478.989013671875,
+            "x1": 397.51312255859375,
+            "y1": 487.9530029296875
+          }
+        },
+        "2026-03-31": {
+          "raw_text": "△421,883",
+          "value": -421883,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 481.9200134277344,
+            "y0": 478.989013671875,
+            "x1": 522.5531616210938,
+            "y1": 487.9530029296875
+          }
+        }
+      },
+      "y_coord": 478.989013671875
+    },
+    {
+      "row_index": 28,
+      "label": "その他（純額）",
+      "indent_level": 4,
+      "hierarchy_path": [
+        "資産の部",
+        "固定資産",
+        "有形固定資産",
+        "その他",
+        "その他（純額）"
+      ],
+      "role": "NET_ITEM",
+      "values": {
+        "2025-03-31": {
+          "raw_text": "8,439",
+          "value": 8439,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 374.8800048828125,
+            "y0": 491.8290100097656,
+            "x1": 397.5095520019531,
+            "y1": 500.7929992675781
+          }
+        },
+        "2026-03-31": {
+          "raw_text": "24,243",
+          "value": 24243,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 495.4800109863281,
+            "y0": 491.8290100097656,
+            "x1": 522.5501708984375,
+            "y1": 500.7929992675781
+          }
+        }
+      },
+      "y_coord": 491.8290100097656
+    },
+    {
+      "row_index": 29,
+      "label": "有形固定資産合計",
+      "indent_level": 3,
+      "hierarchy_path": [
+        "資産の部",
+        "固定資産",
+        "有形固定資産",
+        "有形固定資産合計"
+      ],
+      "role": "SUBTOTAL",
+      "values": {
+        "2025-03-31": {
+          "raw_text": "1,429,094",
+          "value": 1429094,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 356.8800048828125,
+            "y0": 504.5490417480469,
+            "x1": 397.51580810546875,
+            "y1": 513.5130004882812
+          }
+        },
+        "2026-03-31": {
+          "raw_text": "1,352,610",
+          "value": 1352610,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 481.9200134277344,
+            "y0": 504.5490417480469,
+            "x1": 522.5558471679688,
+            "y1": 513.5130004882812
+          }
+        }
+      },
+      "y_coord": 504.5490417480469
+    },
+    {
+      "row_index": 30,
+      "label": "無形固定資産",
+      "indent_level": 2,
+      "hierarchy_path": [
+        "資産の部",
+        "固定資産",
+        "無形固定資産"
+      ],
+      "role": "SECTION_HEADER",
+      "values": {},
+      "y_coord": 517.2689819335938
+    },
+    {
+      "row_index": 31,
+      "label": "リース資産",
+      "indent_level": 3,
+      "hierarchy_path": [
+        "資産の部",
+        "固定資産",
+        "無形固定資産",
+        "リース資産"
+      ],
+      "role": "LINE_ITEM",
+      "values": {
+        "2025-03-31": {
+          "raw_text": "34,190",
+          "value": 34190,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 370.44000244140625,
+            "y0": 529.2689819335938,
+            "x1": 397.5101318359375,
+            "y1": 538.2329711914062
+          }
+        },
+        "2026-03-31": {
+          "raw_text": "21,402",
+          "value": 21402,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 495.4800109863281,
+            "y0": 529.2689819335938,
+            "x1": 522.5501708984375,
+            "y1": 538.2329711914062
+          }
+        }
+      },
+      "y_coord": 529.2689819335938
+    },
+    {
+      "row_index": 32,
+      "label": "その他",
+      "indent_level": 3,
+      "hierarchy_path": [
+        "資産の部",
+        "固定資産",
+        "無形固定資産",
+        "その他"
+      ],
+      "role": "LINE_ITEM",
+      "values": {
+        "2025-03-31": {
+          "raw_text": "10,070",
+          "value": 10070,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 370.44000244140625,
+            "y0": 541.2689819335938,
+            "x1": 397.5101318359375,
+            "y1": 550.2329711914062
+          }
+        },
+        "2026-03-31": {
+          "raw_text": "14,466",
+          "value": 14466,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 495.4800109863281,
+            "y0": 541.2689819335938,
+            "x1": 522.5501708984375,
+            "y1": 550.2329711914062
+          }
+        }
+      },
+      "y_coord": 541.2689819335938
+    },
+    {
+      "row_index": 33,
+      "label": "無形固定資産合計",
+      "indent_level": 3,
+      "hierarchy_path": [
+        "資産の部",
+        "固定資産",
+        "無形固定資産",
+        "無形固定資産合計"
+      ],
+      "role": "SUBTOTAL",
+      "values": {
+        "2025-03-31": {
+          "raw_text": "44,261",
+          "value": 44261,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 370.44000244140625,
+            "y0": 553.9889526367188,
+            "x1": 397.5101318359375,
+            "y1": 562.9529418945312
+          }
+        },
+        "2026-03-31": {
+          "raw_text": "35,869",
+          "value": 35869,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 495.4800109863281,
+            "y0": 553.9889526367188,
+            "x1": 522.5501708984375,
+            "y1": 562.9529418945312
+          }
+        }
+      },
+      "y_coord": 553.9889526367188
+    },
+    {
+      "row_index": 34,
+      "label": "投資その他の資産",
+      "indent_level": 2,
+      "hierarchy_path": [
+        "資産の部",
+        "固定資産",
+        "投資その他の資産"
+      ],
+      "role": "SECTION_HEADER",
+      "values": {},
+      "y_coord": 566.8289794921875
+    },
+    {
+      "row_index": 35,
+      "label": "投資有価証券",
+      "indent_level": 3,
+      "hierarchy_path": [
+        "資産の部",
+        "固定資産",
+        "投資その他の資産",
+        "投資有価証券"
+      ],
+      "role": "LINE_ITEM",
+      "values": {
+        "2025-03-31": {
+          "raw_text": "44,180",
+          "value": 44180,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 370.44000244140625,
+            "y0": 578.8289794921875,
+            "x1": 397.5101318359375,
+            "y1": 587.79296875
+          }
+        },
+        "2026-03-31": {
+          "raw_text": "218,836",
+          "value": 218836,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": true,
+          "bbox": {
+            "x0": 490.9200134277344,
+            "y0": 578.8289794921875,
+            "x1": 522.5531616210938,
+            "y1": 587.79296875
+          }
+        }
+      },
+      "y_coord": 578.8289794921875
+    },
+    {
+      "row_index": 36,
+      "label": "関係会社株式",
+      "indent_level": 3,
+      "hierarchy_path": [
+        "資産の部",
+        "固定資産",
+        "投資その他の資産",
+        "関係会社株式"
+      ],
+      "role": "LINE_ITEM",
+      "values": {
+        "2025-03-31": {
+          "raw_text": "1,123",
+          "value": 1123,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 374.8800048828125,
+            "y0": 590.8289794921875,
+            "x1": 397.5095520019531,
+            "y1": 599.79296875
+          }
+        },
+        "2026-03-31": {
+          "raw_text": "1,123",
+          "value": 1123,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": true,
+          "bbox": {
+            "x0": 499.9200134277344,
+            "y0": 590.8289794921875,
+            "x1": 522.5496215820312,
+            "y1": 599.79296875
+          }
+        }
+      },
+      "y_coord": 590.8289794921875
+    },
+    {
+      "row_index": 37,
+      "label": "長期貸付金",
+      "indent_level": 3,
+      "hierarchy_path": [
+        "資産の部",
+        "固定資産",
+        "投資その他の資産",
+        "長期貸付金"
+      ],
+      "role": "LINE_ITEM",
+      "values": {
+        "2025-03-31": {
+          "raw_text": "－",
+          "value": null,
+          "is_nil": true,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 388.44000244140625,
+            "y0": 602.8289794921875,
+            "x1": 397.44000244140625,
+            "y1": 611.79296875
+          }
+        },
+        "2026-03-31": {
+          "raw_text": "62,000",
+          "value": 62000,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 495.4800109863281,
+            "y0": 602.8289794921875,
+            "x1": 522.5501708984375,
+            "y1": 611.79296875
+          }
+        }
+      },
+      "y_coord": 602.8289794921875
+    },
+    {
+      "row_index": 38,
+      "label": "退職給付に係る資産",
+      "indent_level": 3,
+      "hierarchy_path": [
+        "資産の部",
+        "固定資産",
+        "投資その他の資産",
+        "退職給付に係る資産"
+      ],
+      "role": "LINE_ITEM",
+      "values": {
+        "2025-03-31": {
+          "raw_text": "18,404",
+          "value": 18404,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 370.44000244140625,
+            "y0": 614.8289794921875,
+            "x1": 397.5101318359375,
+            "y1": 623.79296875
+          }
+        },
+        "2026-03-31": {
+          "raw_text": "16,435",
+          "value": 16435,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 495.4800109863281,
+            "y0": 614.8289794921875,
+            "x1": 522.5501708984375,
+            "y1": 623.79296875
+          }
+        }
+      },
+      "y_coord": 614.8289794921875
+    },
+    {
+      "row_index": 39,
+      "label": "その他",
+      "indent_level": 3,
+      "hierarchy_path": [
+        "資産の部",
+        "固定資産",
+        "投資その他の資産",
+        "その他"
+      ],
+      "role": "LINE_ITEM",
+      "values": {
+        "2025-03-31": {
+          "raw_text": "133,361",
+          "value": 133361,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 365.8800048828125,
+            "y0": 626.8289794921875,
+            "x1": 397.51312255859375,
+            "y1": 635.79296875
+          }
+        },
+        "2026-03-31": {
+          "raw_text": "70,967",
+          "value": 70967,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 495.4800109863281,
+            "y0": 626.8289794921875,
+            "x1": 522.5501708984375,
+            "y1": 635.79296875
+          }
+        }
+      },
+      "y_coord": 626.8289794921875
+    },
+    {
+      "row_index": 40,
+      "label": "投資その他の資産合計",
+      "indent_level": 3,
+      "hierarchy_path": [
+        "資産の部",
+        "固定資産",
+        "投資その他の資産",
+        "投資その他の資産合計"
+      ],
+      "role": "SUBTOTAL",
+      "values": {
+        "2025-03-31": {
+          "raw_text": "197,069",
+          "value": 197069,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 365.8800048828125,
+            "y0": 639.5489501953125,
+            "x1": 397.51312255859375,
+            "y1": 648.512939453125
+          }
+        },
+        "2026-03-31": {
+          "raw_text": "369,362",
+          "value": 369362,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 490.9200134277344,
+            "y0": 639.5489501953125,
+            "x1": 522.5531616210938,
+            "y1": 648.512939453125
+          }
+        }
+      },
+      "y_coord": 639.5489501953125
+    },
+    {
+      "row_index": 41,
+      "label": "固定資産合計",
+      "indent_level": 2,
+      "hierarchy_path": [
+        "資産の部",
+        "固定資産",
+        "固定資産合計"
+      ],
+      "role": "SUBTOTAL",
+      "values": {
+        "2025-03-31": {
+          "raw_text": "1,670,426",
+          "value": 1670426,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 356.8800048828125,
+            "y0": 652.2689819335938,
+            "x1": 397.51580810546875,
+            "y1": 661.2329711914062
+          }
+        },
+        "2026-03-31": {
+          "raw_text": "1,757,841",
+          "value": 1757841,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 481.9200134277344,
+            "y0": 652.2689819335938,
+            "x1": 522.5558471679688,
+            "y1": 661.2329711914062
+          }
+        }
+      },
+      "y_coord": 652.2689819335938
+    },
+    {
+      "row_index": 42,
+      "label": "資産合計",
+      "indent_level": 1,
+      "hierarchy_path": [
+        "資産の部",
+        "資産合計"
+      ],
+      "role": "GRAND_TOTAL",
+      "values": {
+        "2025-03-31": {
+          "raw_text": "7,534,110",
+          "value": 7534110,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 356.8800048828125,
+            "y0": 664.9889526367188,
+            "x1": 397.51580810546875,
+            "y1": 673.9529418945312
+          }
+        },
+        "2026-03-31": {
+          "raw_text": "5,135,249",
+          "value": 5135249,
+          "is_nil": false,
+          "is_negative_zero": false,
+          "is_amended": false,
+          "bbox": {
+            "x0": 481.9200134277344,
+            "y0": 664.9889526367188,
+            "x1": 522.5558471679688,
+            "y1": 673.9529418945312
+          }
+        }
+      },
+      "y_coord": 664.9889526367188
+    }
+  ]
+}
