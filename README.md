@@ -21,7 +21,9 @@ We define and measure correctness across two complementary pillars:
    - Enforces **structural completeness** (non-empty data rows, empty section headers).
 2. **Extrinsic Relational Tuple Evaluation ([src/evaluator.py](src/evaluator.py))**:
    - Represents the table as a set of canonical relational tuples:
-     $$\text{Cell} = \big(\text{tuple}(\text{hierarchy\_path}), \text{role}, \text{period}, \text{effective\_value}, \text{is\_nil}, \text{is\_negative\_zero}, \text{is\_amended}\big)$$
+     ```python
+     Cell = (tuple(hierarchy_path), role, period, effective_value, is_nil, is_negative_zero, is_amended)
+     ```
    - Computes **Strict Relational F1**, **Numeric Value F1**, **Hierarchy Path Accuracy**, and **J-GAAP Semantic Accuracy** against ground truth.
 
 ---
@@ -35,22 +37,29 @@ In J-GAAP filings reported in thousands of yen (千円単位), values are trunca
 - **Mathematical Proof for Triplets**:
   Let exact gross be $G$ and exact accumulated depreciation be $D$, so exact net is $N = G - D$.
   In the PDF, printed values are integers:
+
   $$\tilde{G} = \lfloor G / 1000 \rfloor, \quad \tilde{D} = \lfloor D / 1000 \rfloor, \quad \tilde{N} = \lfloor (G - D) / 1000 \rfloor$$
+
   Using the floor identity $\lfloor x - y \rfloor \in \{\lfloor x \rfloor - \lfloor y \rfloor, \lfloor x \rfloor - \lfloor y \rfloor - 1\}$, we obtain:
+
   $$\tilde{N} - (\tilde{G} - \tilde{D}) \in \{0, -1\}$$
+
   In `balance_sheet_after_correction.pdf`, this exact drift occurs on:
-  - `建物及び構築物` (2026): Gross 1,880,082 + Depr -1,640,253 = 239,829 vs. Printed Net 239,828 ($\text{diff} = -1$)
-  - `リース資産` (2025): Gross 210,746 + Depr -147,599 = 63,147 vs. Printed Net 63,146 ($\text{diff} = -1$)
-  - `リース資産` (2026): Gross 213,939 + Depr -172,066 = 41,873 vs. Printed Net 41,872 ($\text{diff} = -1$)
-  *Naive equality `gross + depr == net` fails on real filings.* Our verifier enforces strict bounds: `exact_match` ($\text{diff} == 0$) vs. `within_rounding_tolerance` ($|\text{diff}| \le 1$), while still rejecting true errors ($|\text{diff}| > 1$).
+  - `建物及び構築物` (2026): Gross `1,880,082` + Depr `-1,640,253` = `239,829` vs. Printed Net `239,828` ($\Delta = -1$)
+  - `リース資産` (2025): Gross `210,746` + Depr `-147,599` = `63,147` vs. Printed Net `63,146` ($\Delta = -1$)
+  - `リース資産` (2026): Gross `213,939` + Depr `-172,066` = `41,873` vs. Printed Net `41,872` ($\Delta = -1$)
+  
+  *Naive equality `gross + depr == net` fails on real filings.* Our verifier enforces strict bounds: `exact_match` ($\Delta = 0$) vs. `within_rounding_tolerance` ($\vert{}\Delta\vert{} \le 1$), while still rejecting true errors ($\vert{}\Delta\vert{} > 1$).
 - **Subtotal Rollup Drift**:
-  Similarly, for a subtotal summing $K$ line items, the cumulative truncation drift satisfies:
-  $$\left|\text{PrintedSubtotal} - \sum_{i=1}^K \text{PrintedItem}_i\right| \le K$$
-  Our verifier enforces $|\text{diff}| \le K$, allowing legitimate truncation drift (e.g., +3 千円 drift across 10 items in `流動資産合計`) while instantly flagging genuine errors.
+  Similarly, for a subtotal summing $K$ line items, the cumulative truncation drift $\Delta$ satisfies:
+
+  $$\left\vert{}\tilde{S} - \sum_{i=1}^K \tilde{x}_i\right\vert{} \le K$$
+
+  Our verifier enforces $\vert{}\Delta\vert{} \le K$, allowing legitimate truncation drift (e.g., `+3` 千円 drift across 10 items in `流動資産合計`) while instantly flagging genuine errors.
 
 ### Trap 2: Nil (`－`) vs. Negative Zero (`△0`) GAAP Semantics
-- **`－` (U+FF0D Fullwidth Hyphen-Minus)**: Represents a non-existent account balance this period (e.g. `建設仮勘定` and `長期貸付金` in prior period). Parsed as `is_nil=True, value=None`.
-- **`△0` (Negative Zero)**: Represents an active account whose balance is non-zero but rounds to zero at the 千円 level (e.g. `貸倒引当金` in current period). Parsed as `is_negative_zero=True, value=0`.
+- **`－` (U+FF0D Fullwidth Hyphen-Minus)**: Represents a non-existent account balance this period (e.g., `建設仮勘定` and `長期貸付金` in prior period). Parsed as `is_nil=True, value=None`.
+- **`△0` (Negative Zero)**: Represents an active account whose balance is non-zero but rounds to zero at the 千円 level (e.g., `貸倒引当金` in current period). Parsed as `is_negative_zero=True, value=0`.
 - *Why it matters*: In financial audits, `is_nil` means the account was inactive, while `△0` means the account was active. Collapsing both to `0` destroys the audit trail.
 
 ### Trap 3: Repeated Labels & Visual Indentation Hierarchy
@@ -65,11 +74,11 @@ Our parser dynamically clusters $x_0$ coordinates into visual indentation tiers 
 
 ### Trap 4: Vector-Level Physical Amendment Underlines (訂正後 Filings)
 In Japanese corrected filings (`（訂正後）`), amended cells are designated by a narrow black horizontal rule sitting directly beneath the amended numbers.
-- In this PDF, lines sit ~8–10pt below text baseline ($h < 1.0\text{pt}, w < 60\text{pt}, \text{fill} == (0,0,0)$).
+- In this PDF, lines sit ~8–10pt below text baseline (`h < 1.0pt`, `w < 60pt`, `fill == (0,0,0)`).
 - Our vector drawing extractor links these rects to candidate cells, setting `is_amended=True` on exactly `218,836` (`投資有価証券`) and `1,123` (`関係会社株式`) in `2026-03-31`.
 
 ### Trap 5: Standalone Negative Triangle Symbols (`△` / `▲`)
-In native PDF text streams, Japanese negative triangle markers (`△`, U+25B3) are emitted as separate spans to the left of the numeric text (e.g. `△` at $x_0=365.88$, `2,979` at $x_0=374.88$). Our parser groups spans on the same row horizontally and merges them into signed canonical values (`-2979`).
+In native PDF text streams, Japanese negative triangle markers (`△`, U+25B3) are emitted as separate spans to the left of the numeric text (e.g., `△` at $x_0=365.88$, `2,979` at $x_0=374.88$). Our parser groups spans on the same row horizontally and merges them into signed canonical values (`-2979`).
 
 ---
 
@@ -114,8 +123,8 @@ graph TD
    - Reconstructs hierarchy paths and semantic roles (`GROSS_ITEM`, `ACCUM_DEPR`, `NET_ITEM`, `SUBTOTAL`, `GRAND_TOTAL`).
    - Normalizes negative triangles and nil fullwidth hyphens into canonical dataclasses.
 3. **Stage 3 — Intrinsic Zero-Label Verifier ([src/verifier.py](src/verifier.py))**:
-   - Validates triplet consistency ($|\text{diff}| \le 1$).
-   - Validates subtotal roll-ups ($|\text{diff}| \le K$).
+   - Validates triplet consistency ($\vert{}\Delta\vert{} \le 1$).
+   - Validates subtotal roll-ups ($\vert{}\Delta\vert{} \le K$).
    - Verifies structural completeness.
 4. **Stage 4 — Verifier-Guided VLM Fallback & Repair ([src/vlm_fallback.py](src/vlm_fallback.py))**:
    - **Raster Fallback**: Automatically triggers when native text spans $= 0$.
